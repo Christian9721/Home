@@ -1,9 +1,3 @@
-/* Template: Juno - Multipurpose Landing Page Pack
-   Author: InovatikThemes
-   Created: Mar 2019
-   Description: Custom JS file
-*/
-
 
 (function($) {
     "use strict"; 
@@ -167,7 +161,7 @@
                         if ( !m || !m[1] ) return null;
                         return m[1];
                     },
-                    src: 'https://www.youtube.com/embed/%id%?autoplay=1'
+                    src: ''
                 },
                 vimeo: {
                     index: 'vimeo.com/', 
@@ -176,7 +170,7 @@
                         if ( !m || !m[5] ) return null;
                         return m[5];
                     },
-                    src: 'https://player.vimeo.com/video/%id%?autoplay=1'
+                    src: ''
                 }
             }
         }
